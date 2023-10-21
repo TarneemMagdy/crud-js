@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Document</title>
+     <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+ 
+<section class="home">
+  <div class="container">
+    <div class="curd-heading text-center">
+      <h1>crud application</h1>
+      
+      </div>
+     
+          <div class="row">
+            <div class="col-6">
+      <label for="name">name</label>
+      <input type="text" name="" id="name" class="form-control">
+      <label for="age">age</label>
+      <input type="number" id="age" class="form-control" min="18" max="64">
+      
+      
+     
+     </div>
+          
+        <div class="col-6">
+      <label for="address">address</label>
+      <input type="text" id="address" class="form-control">
+      <label for="email">email</label>
+      <input type="email" id="email" class="form-control">
+     
+     </div>
+     <div class="count m-auto text-center">
+     <label for="count" class="m-auto">count</label>
+      <input type="number" id="count" class="form-control w-25 m-auto">
+      </div>
+       <div class="btn-crud text-center mt-4">
+
+      <button class="btn btn-info" id="adding" onclick="addPerson(),validateForm()">add data</button>
+      <button class="btn btn-danger" onclick="clearAll()">clear data</button>
+      </div>
+   
+    <hr>
+
+    <table class="table mt-5 text-center table-bordered">
+      <thead>
+        <th>id</th>
+        <th>name</th>
+        <th>age</th>
+        <th>address</th>
+        <th>email</th>
+        <th>count</th>
+        <th>actions</th>
+      </thead>
+      <tbody id="tBody">
+        
+      </tbody>
+    </table>
+  </div>
+   </div>
+    </div>
+    </div>
+</section>
+ 
+ 
+<!-- js -->
+<script src="js/main.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

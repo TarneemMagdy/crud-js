@@ -1,0 +1,58 @@
+ body {
+    background-color:#3CD8AA;
+    /* display: flex;
+    justify-content: center; */
+        padding: 70px 0;
+        color:#fff
+ }
+ .form-control {
+    
+        width: 82%;
+ }
+ label {
+      text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 13px 0;
+ }
+ .btn-crud {
+   padding: 20px 0;
+ }
+ .btn {
+   
+    color: #fff;
+    margin-right: 20px;
+    transition: all 0.5s;
+ }
+ 
+.btn2 {
+   border-radius: 10px;
+   margin-right: 10px;
+      padding: 4px 7px;
+      background-color: black;
+      color: #fff;
+      text-transform: capitalize;
+ }
+ .table {
+       
+        text-transform: capitalize;
+            width: 92%;
+            
+ }
+
+ .curd-heading {
+    text-align: center;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+ }
+ .form-control:focus {
+  border: red;
+ }
+ .btn2 {
+     background-color: turquoise;
+ }
+ .btn:hover {
+    background-color: turquoise;
+    border: none;
+    color:white
+ }
